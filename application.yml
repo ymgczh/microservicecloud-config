@@ -1,14 +1,15 @@
-﻿spring:
+﻿spring: 
   profiles:
-    active:
+    active: 
     - dev
 ---
-spring:
-  profiles: dev
-    application: 
-      name: microservicecloud-config-zhymgc-dev
+spring: 
+  profiles: dev     #开发环境
+  application: 
+    name: microservicecloud-zhymgc-dev
 ---
-spring:
-  profiles: test
-    application: 
-      name: microservicecloud-config-zhymgc-test
+spring: 
+  profiles: test    #测试环境
+  application: 
+    name: microservicecloud-zhymgc-test
+# 请保存为UTF-8格式
