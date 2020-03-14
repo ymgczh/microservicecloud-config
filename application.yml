@@ -5,10 +5,10 @@
 ---
 spring:
   profiles: dev
-    application:
+    application: 
       name: microservicecloud-config-zhymgc-dev
 ---
 spring:
   profiles: test
-    application:
+    application: 
       name: microservicecloud-config-zhymgc-test
