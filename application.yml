@@ -1,17 +1,14 @@
-﻿
-spring:
+﻿spring:
   profiles:
-    active: 
+    active:
     - dev
 ---
 spring:
-  profiles:
-    active: dev
+  profiles: dev
     application:
       name: microservicecloud-config-zhymgc-dev
 ---
 spring:
-  profiles:
-    active: test
+  profiles: test
     application:
       name: microservicecloud-config-zhymgc-test
